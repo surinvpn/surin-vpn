@@ -84,9 +84,6 @@ if [[ $CHECKSYSTEM ]]; then
 		fi
 	fi
 
-else
-
-	
 
 fi
 
