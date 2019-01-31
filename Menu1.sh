@@ -8,8 +8,6 @@ CHECKSYSTEM=$(tail -n +2 /etc/openvpn/server.conf | grep "^username-as-common-na
 IP=$(wget -4qO- "http://whatismyip.akamai.com/")
 
 # ===== แม่แบบสี =====
-สีเทา='\033[1;33m'
-สีเขียว='\033[0;32m'
 NC='\033[0m'
 # =================
 
@@ -21,7 +19,7 @@ echo " ========================="
 echo ""
 	echo -e "ฟังชั่นการใช้งาน${NC}"
 	echo ""
-	echo -e "1${NC} : เพิ่มบัญชีผู้ใช้ OpenVPN"
+	echo -e "1 : เพิ่มบัญชีผู้ใช้ OpenVPN"
 	echo -e "2${NC} : เพิ่มบัญชีผู้ใช้ SSH (HTTP)"
 	echo -e "3${NC} : ลบบัญชีผู้ใช้"
 	echo -e "4${NC} : ตรวจสอบบัญชีผู้ใช้ทั้งหมด"
